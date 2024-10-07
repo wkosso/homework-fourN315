@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.5411764706);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-wrapper .login-container {
+  width: 60%;
+  height: 60%;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.login-wrapper .login-container .login-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #4682B4;
+  text-transform: capitalize;
+  margin: 20px;
+}
+.login-wrapper .login-container input {
+  width: 400px;
+  height: 40px;
+  border: solid 1px #FA773C;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5px;
+}
+.login-wrapper .login-container label {
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  color: #696968;
+}
+.login-wrapper .login-container #pass {
+  width: 20px;
+  height: 10px;
+}
+.login-wrapper .login-container .submit-box .sub {
+  width: 160px;
+  height: 30px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  background-color: #4682B4;
+  border: none;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.wrapper-home {
+  width: 100%;
+}
+.wrapper-home .home-heading {
+  color: #576A7A;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 10px;
+}
+.wrapper-home .recepie-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.wrapper-home .recepie-container .pie-container .pie-img {
+  background-image: url(../images/pexels-ekrulila-28086834.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 200px;
+}
+.wrapper-home .recepie-container .pie-container .thank {
+  background-image: url(../images/IMG_1925-976x1024.jpg);
+}
+.wrapper-home .recepie-container .pie-container .halo {
+  background-image: url(../images/Halloween-cookies-4b1a057.jpg);
+}
+.wrapper-home .recepie-container .pie-container .east {
+  background-image: url(../images/Easter-Food-Ideas-Easter-Bunny-Meatloaf-West-Via-Midwest-3.jpg);
+}
+.wrapper-home .recepie-container .pie-container .pie-text {
+  color: #576A7A;
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 3px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-home .recepie-container .pie-container .pie-textinfo {
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  width: 200px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-home .section-two .section2-head {
+  color: #576A7A;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 10px;
+}
+.wrapper-home .section-two .frost-imgs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.wrapper-home .section-two .frost-imgs-container .frost-img {
+  background-image: url(../images/24-easy-quick-dinner-recipes-1632175796332-superJumbo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 200px;
+}
+.wrapper-home .section-two .frost-imgs-container .two {
+  background-image: url(../images/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg);
+}
+.wrapper-home .section-two .frost-imgs-container .three {
+  background-image: url(../images/Cowboy-pie-cef67be.jpg);
+}
+.wrapper-home .section-two .frost-imgs-container .four {
+  background-image: url(../images/Honey-Chipotle-Chicken-Skewers-800x800.jpg);
+}
+.wrapper-home .section-two .hr {
+  border-top: 2px solid black;
+  width: 100%;
+  margin: 20px auto;
+}
+.wrapper-home .section-three {
+  width: 100%;
+}
+.wrapper-home .section-three .sec3-heading {
+  color: #576A7A;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 10px;
+}
+.wrapper-home .section-three .hr-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.wrapper-home .section-three .hr-container .email-text {
+  color: #576A7A;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.wrapper-home .section-three .hr-container .line-cont {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper-home .section-three .hr-container .hr2 {
+  border-top: 2px solid grey;
+  width: 50%;
+  margin-bottom: 5px;
+}
+.wrapper-home .section-three .hr-container .subscribe {
+  border: 2px orange solid;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+}
+.wrapper-home .section-three .mission {
+  color: #576A7A;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.about-wrapper .about-heading {
+  color: #576A7A;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 10px;
+}
+.about-wrapper .about-section-one {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.about-wrapper .about-section-one .about-img {
+  background-image: url(../images/360_F_141008262_QkYUB7wlGZ05WMfl8hNhT3mbHeklPDkf.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 700px;
+}
+.about-wrapper .about-section-one .left-container {
+  width: 600px;
+  padding: 5px;
+}
+.about-wrapper .about-section-one .about-title {
+  color: #576A7A;
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+.about-wrapper .about-section-one .about-info {
+  color: #576A7A;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.about-wrapper .about-section-one .subscribe-about {
+  border: 3px orange solid;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+  margin-bottom: 50px;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-org {
+  color: whitesmoke;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: monospace;
+}
+
+.footer-icons .fa-brands {
+  width: 25px;
+  height: 25px;
+  color: white;
+}

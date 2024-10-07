@@ -1,0 +1,84 @@
+ .login-wrapper{
+
+    width: 100%;
+    height: 100vh;
+ 
+    background-color: #8080808a;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+    .login-container{
+
+        width: 60%;
+        height: 60%;
+background-color: whitesmoke;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+border-radius: 10px;
+
+
+
+
+.login-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color:#4682B4;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+
+input{
+    width: 400px;
+    height: 40px;
+   border: solid 1px #FA773C;
+   font-size: 15px;
+   text-transform: capitalize;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 5px;
+    
+}
+
+label{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: #696968;
+}
+
+#pass{
+    width: 20px;
+    height: 10px;
+  
+  
+}
+
+.submit-box{
+
+    .sub{
+        width: 160px;
+        height: 30px;
+        border-radius: 25px;
+       
+        color:white ;
+        font-weight: bold;
+        background-color: #4682B4;
+        border: none;
+        margin: 30px;
+      cursor: pointer;
+    }
+
+}
+
+
+    }
+
+
+ }
